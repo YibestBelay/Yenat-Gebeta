@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* background:black; */
+}
+.header{
+    position: sticky;
+    left:2rem;
+    display:flex;
+    align-items:center;
+    /* border:2px solid blue; */
+    background: linear-gradient(to bottom,rgba(0, 128, 0,.5),rgba(255, 255, 0,.5),rgba(255, 0, 0,.5));   
+}
+.logo{
+    width: 50px;
+    height: 70px;
+    margin: 2px 20px;
+   }
+   ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    position: absolute;
+    right:20%;
+   }
+   li{
+    font-weight: 600;
+    padding-right: 5rem;
+    cursor: pointer;
+   }
+   #call{
+    cursor:copy;
+    color: rgb(174, 28, 5);
+   }
