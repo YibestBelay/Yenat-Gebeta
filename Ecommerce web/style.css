@@ -8,6 +8,7 @@ body{
     position: sticky;
     left:2rem;
     display:flex;
+    justify-content: space-between;
     align-items:center;
     /* border:2px solid blue; */
     background: linear-gradient(to bottom,rgba(0, 128, 0,.5),rgba(255, 255, 0,.5),rgba(255, 0, 0,.5));   
@@ -18,14 +19,17 @@ body{
     height: 70px;
     margin: 2px 20px;
    }
-   ul{
+   #h{
+    margin-left: -80px;
+   }
+   /* ul{
     display:flex;
     justify-content: center;
     align-items: center;
     list-style: none;
     position: absolute;
     right:10%;
-   }
+   } */
    li{
     /* font-size: 20px; */
     font-weight: 600;
@@ -37,8 +41,8 @@ body{
     color: rgb(174, 28, 5);
    }
    #u1{
-   position: absolute;
-   right:60em;
+   /* position: absolute;
+   right:60em; */
   background: rgb(255, 255, 255);
   cursor: pointer;
   border-radius: 30px;
@@ -104,7 +108,7 @@ body{
 .f2 {
     margin-left: 20px;
     margin-top: 10em;
-    margin-bottom: 10em;
+    margin-bottom: 5em;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 1em;
@@ -136,6 +140,12 @@ body{
 
     text-shadow: 2px 2px 5px orange ;
 }
-   
+
+.f3{
+    display:flex;
+    justify-content: space-between;
+    padding:0 3em;
+    background: linear-gradient(to bottom, rgb(1, 81, 18),rgb(167, 225, 176));   
+}
 
   
